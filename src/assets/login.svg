@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Login);
+      }
+
+      .cls-2 {
+        fill: rgba(56,18,201,0.81);
+      }
+
+      .cls-3 {
+        fill: #421cd3;
+      }
+
+      .cls-4 {
+        fill: #6f49ff;
+      }
+    </style>
+    <clipPath id="clip-Login">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Login" class="cls-1">
+    <rect class="cls-4" width="1920" height="1080"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="165.5" cy="165.5" r="165.5" transform="translate(-83 -64)"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-3" cx="331" cy="331" r="331" transform="translate(-273 623)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-3" cx="19" cy="19" r="19" transform="translate(277 291)"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-3" cx="16" cy="16" r="16" transform="translate(108 401)"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-3" cx="12.5" cy="12.5" r="12.5" transform="translate(438 446)"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-3" width="309" height="206" rx="103" transform="translate(1742 -52)"/>
+  </g>
+</svg>
