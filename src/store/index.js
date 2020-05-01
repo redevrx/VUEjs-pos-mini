@@ -63,7 +63,7 @@ export default new Vuex.Store({
   actions: {
     async onSaleChange(context) {
       await axios
-        .get("http://192.168.1.37:8082/pos/api/v1/product/sale/get", {
+        .get("http://ip/pos/api/v1/product/sale/get", {
           headers: {
             "auth-token": localStorage.getItem("access_token"),
           },
@@ -79,7 +79,7 @@ export default new Vuex.Store({
     },
     async onProductChange(context) {
       await axios
-        .get("http://192.168.1.37:8082/pos/api/v1/product/get", {
+        .get("http://ip/pos/api/v1/product/get", {
           headers: {
             "auth-token": localStorage.getItem("access_token"),
           },
@@ -101,7 +101,7 @@ export default new Vuex.Store({
     async Login(context, data) {
       return new Promise((resolve, reject) => {
         axios
-          .post("http://192.168.1.37:8082/pos/api/v1/user/login", data)
+          .post("http://ip/pos/api/v1/user/login", data)
           .then((response) => {
             const token = response.data.access_token;
 
@@ -122,7 +122,7 @@ export default new Vuex.Store({
     async onRegister(context, data) {
       return new Promise((resolve, reject) => {
         axios
-          .post("http://192.168.1.37:8082/pos/api/v1/user/register", data)
+          .post("http://ip/pos/api/v1/user/register", data)
           .then((result) => {
             resolve(result);
             context.commit("setSignUpStatus", "Create Account Successfully");
